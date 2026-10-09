@@ -1,0 +1,31 @@
+# Bench100
+
+> ベンチプレス 100kg まで、5×5 のルールで次に何kgを何回やるかを毎回決める iPhone アプリ。An iPhone app that sets your next bench press weight with the 5×5 rules, all the way to 100 kg (225 lb).
+
+## 何ができるか / What it does
+
+- 前回の結果から、次のセッションのベンチプレスの重量と回数を決める（5×5）
+- 停滞したときは重量を 10% 下げて積み直す進め方が最初から組み込まれている
+- 休んでしまったあとの再開、100kg に挑戦するときの進め方も決まっている
+- 休憩の終わりの通知、セットの動画撮影（写真アプリへの保存）、記録の CSV 書き出し
+- Bench100 Plus（アプリ内課金）: 補助種目・止めベンチ、挑戦前の仕上げ、ゴール後のウェーブ、100kg までの見込み、ウィジェット、ロック画面・Dynamic Island の休憩表示など
+- 記録は端末の中だけに保存され、開発者には送られない
+
+## 誰向けか / Who it's for
+
+- ベンチプレス 100kg（225 lb）を目標にしている初心者〜中級者
+- 毎回の重量を自分で計算せず、決まったルールで進めたい人
+
+## App Store
+
+- 日本: https://apps.apple.com/jp/app/id6815478380
+- United States: https://apps.apple.com/us/app/id6815478380
+
+## 主要ページ / Pages
+
+- [トップ（日本語）](https://nosunosukawa.github.io/bench100-site/index.ja.html)
+- [Home (English)](https://nosunosukawa.github.io/bench100-site/)
+- [サポート・よくある質問](https://nosunosukawa.github.io/bench100-site/support.ja.html)
+- [Support & FAQ](https://nosunosukawa.github.io/bench100-site/support.html)
+- [プライバシーポリシー](https://nosunosukawa.github.io/bench100-site/privacy.ja.html)
+- [Privacy Policy](https://nosunosukawa.github.io/bench100-site/privacy.html)
