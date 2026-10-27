@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-itunes-app" content="app-id=6815478380">
 <title>Bench100 — Privacy Policy</title>
-<meta name="description" content="Bench100 collects nothing. Your records and videos stay on your device.">
+<meta name="description" content="Your Bench100 records and videos stay on your device. Only what you send to the AI coach, after you agree, leaves it.">
 <style>
   :root{color-scheme:light dark;--paper:#F5F5F2;--ink:#15171B;--soft:#4F5560;--rule:#D9DAD6;--accent:#1D4FC4;--plate:#111317;--chalk:#F4F2EC}
   @media (prefers-color-scheme: dark){:root{--paper:#0E1013;--ink:#ECEBE6;--soft:#A6ABB3;--rule:#2A2E35;--accent:#7FA2F0}}
@@ -28,35 +28,89 @@
   a{color:var(--accent)}
   footer{max-width:760px;margin:0 auto;padding:20px 16px 40px;color:var(--soft);font-size:14px;border-top:1px solid var(--rule)}
   a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+  h3{font-size:17px;margin:22px 0 4px}
+  ul{padding-left:1.3em}
+  .tbl{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:.6em 0}
+  table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.6}
+  th,td{border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top}
+  th{font-weight:700}
+  .tbl table{min-width:560px}
 </style>
 </head>
 <body>
 <header><div class="in"><span class="plates" aria-hidden="true"><i style="height:30px;background:#D7222E"></i><i style="height:27px;background:#F5C312"></i><i style="height:14px;background:#B8BFC7"></i></span><a class="brand" href="index.html">Bench100</a><nav><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="index.ja.html">日本語</a></nav></div></header>
 <main>
 <h1>Bench100 Privacy Policy</h1>
-<p class="lead">Bench100 collects nothing. Your records and videos stay on your device. No accounts, no analytics, no ads, no servers of ours.</p>
-<p class="meta">Last updated: October 9, 2026</p>
+<p class="lead">Your Bench100 records and videos stay on your device. No accounts, no analytics, no ads. The only thing that leaves your device is what you send to the AI coach, and only after you agree.</p>
+<p class="meta">Last updated: 2026-10-27</p>
 <h2>Information we collect</h2>
-<p>None. The app uses no analytics, crash reporting, advertising identifiers, or data-collecting third-party SDKs. The developer never receives your weights, reps, body weight, videos, or device identifiers.</p>
+<p>None, unless you use the AI coach. The app uses no analytics, crash reporting, advertising identifiers, or data-collecting third-party SDKs.</p>
+<p>If you use the AI coach, the data described in "AI coach" below is sent. Your body weight, videos, name, email, Apple ID, location and contacts are never sent.</p>
 <h2>Where your data is stored</h2>
-<p>Workout records (weights, reps, dates), body weight, and settings are stored inside the app on your device. They are included in your own iPhone or iCloud backups, which only you control. Deleting the app deletes the data.</p>
+<p>Workout records (weights, reps, dates), body weight, and settings are stored inside the app on your device. They are included in your own iPhone or iCloud backups, which only you control. Deleting the app deletes the data. For what the AI coach sends and keeps on your device (that day's check-in), see "AI coach" below.</p>
 <p>For widgets and the Lock Screen, a few numbers (such as your current weight and goal) are also kept in a shared storage area (keychain) on your device. If you have our app Next Total, the two apps share your bench numbers there. Nothing is sent off your device.</p>
+<h2 id="ai-coach">AI coach</h2>
+<p>The AI coach is optional (monthly and yearly Plus, and a trial and the AI coach option for one-time purchase owners). We ask for your consent in the app the first time you use it, and nothing is sent before you agree. Without consent, you can still adjust today's session with the buttons, which works entirely on your device.</p>
+<h3>When data is sent</h3>
+<p>When today's note is shown, when you check in or ask a question under "Check in before you start", and when you ask for the weekly summary line.</p>
+<h3>What is sent</h3>
+<ul>
+<li>Your last 6 sessions (date, type, top weight, reps per set, whether you completed it; for adjusted days, the weight of each set and when and how it was adjusted), today's plan, your 1RM goal, sessions per week, and weekly summary numbers (sessions, top weight, estimated 1RM, etc.)</li>
+<li>The check-in you choose that day (body area, pain level and type, how you feel, such as tired or short on sleep)</li>
+<li>The note you write (up to 140 characters) and your follow-up questions and the conversation</li>
+<li>Your display language and unit (kg / lb), and your plan type (monthly, yearly, option or trial; used to count the monthly limit)</li>
+<li>A random number for this device, used to count usage (it changes if you reinstall the app), and a signature proving the request comes from the genuine Bench100 app (made with a key created on your device by Apple's App Attest)</li>
+</ul>
+<p>Pain and how you feel are health-related information. Please don't include names, contact details, diagnoses or anything the coach doesn't need in your note.</p>
+<h3>How it is used</h3>
+<p>Only to write today's note, suggest an adjusted session for how you feel and write the weekly summary line, and to enforce usage limits and prevent abuse. Never for advertising, marketing or analytics. The app's rules set every weight and rep; the AI can only keep the plan or make it lighter.</p>
+<h3>Where it goes and what is kept</h3>
+<div class="tbl"><table>
+<thead><tr><th>Recipient</th><th>Country</th><th>Role</th><th>What is kept, and for how long</th></tr></thead>
+<tbody>
+<tr><td>Our relay (Cloudflare Workers by Cloudflare, Inc.)</td><td>United States</td><td>Passes your request to the AI</td><td>Your conversations are not stored. We keep only usage counts per device number or App Attest key ID (daily counts expire after 3 days, monthly counts after 40 days) and the App Attest key ID, public key and signature counter (deleted 400 days after last use). Automatic request logs (URL, headers, source) are turned off. For operations we log only counts, cost and error types, deleted within 7 days</td></tr>
+<tr><td>The AI (Claude API by Anthropic, PBC)</td><td>United States</td><td>Writes the answers</td><td>Anthropic's commercial terms say it does not train its models on this data. Inputs and outputs are automatically deleted within 30 days, but may be kept for up to 2 years if automatically flagged as a possible violation of Anthropic's usage policy. The device number is not sent to Anthropic</td></tr>
+</tbody>
+</table></div>
+<p>To tell which regions we don't serve (below), the relay uses the country of the request as determined by Cloudflare from the IP address. IP addresses are not stored. Your name, email, Apple ID and location are never sent to the relay or the AI.</p>
+<h3>Transfers abroad</h3>
+<p>Both providers are in the United States. According to Japan's Personal Information Protection Commission, the US has no single comprehensive federal privacy law; protection comes from sector-specific federal laws (such as the Electronic Communications Privacy Act and HIPAA) and state laws. The US participates in the APEC Cross-Border Privacy Rules (CBPR) system. Under its contract with us (commercial terms and data processing addendum), Anthropic handles the data only on our instructions and does not train on it. Cloudflare holds the Global CBPR and Global PRP (for processors) certifications.</p>
+<h3>Regions where it is not offered</h3>
+<p>The AI coach is not offered in the European Union, the European Economic Area (Iceland, Liechtenstein, Norway), the United Kingdom or Switzerland. It isn't shown with those App Store countries, and the relay refuses requests from those countries (nothing is sent to the AI). Button-based adjustments work everywhere.</p>
+<h3>Age</h3>
+<p>The AI coach is for people 18 and over.</p>
+<h3>Withdrawing consent and deletion</h3>
+<p>Turn off "Send data to the AI coach" in Settings at any time and nothing more is sent. Today's conversation and the device number on your device are deleted too, and a new number is created if you agree again (it isn't linked to your earlier usage). Data sent before then is handled as described above. We don't store your conversations, so there are none for us to delete. Usage counts and the key ID expire automatically as above; contact us below if you want them deleted sooner.</p>
+<h3>Not medical advice</h3>
+<p>The AI coach's answers are not medical diagnosis or treatment advice and can be wrong. With sharp pain, numbness, chest pain, shortness of breath or dizziness, stop training and see a doctor.</p>
+<h3>For users in Korea (transfer of personal information abroad)</h3>
+<div class="tbl"><table>
+<thead><tr><th>Item</th><th>Details</th></tr></thead>
+<tbody>
+<tr><td>Items transferred</td><td>"What is sent" above (sessions, plan, goal, check-in [health-related], notes, questions, language, unit, plan type; the relay also receives the device number and App Attest key ID)</td></tr>
+<tr><td>Country, timing and method</td><td>United States; each time you use the AI coach (today's note, check-in, weekly summary), over encrypted connections (HTTPS)</td></tr>
+<tr><td>Recipients and contact</td><td>Anthropic, PBC (privacy@anthropic.com) / Cloudflare, Inc. (privacyquestions@cloudflare.com)</td></tr>
+<tr><td>Recipients' purpose and retention</td><td>Anthropic: to generate answers; deleted within 30 days (up to 2 years if flagged) / Cloudflare: relaying, limits and abuse prevention; periods in the table above</td></tr>
+<tr><td>How to refuse</td><td>Don't agree on the consent screen; afterwards, turn off "Send data to the AI coach" in Settings</td></tr>
+<tr><td>Effect of refusing</td><td>Only the AI answers (reasons, tips, weekly line) are unavailable; button-based adjustments and everything else still work</td></tr>
+</tbody>
+</table></div>
 <h2>Camera, microphone, and Photos</h2>
 <p>When you record a video to check your form or to remember an attempt, the app uses the camera and microphone. With Plus (or if you've used the app since 1.1 or earlier), videos are saved inside the app, and also to Photos if you choose. Otherwise they are saved to Photos. The app only adds to Photos; it does not read your existing photos or videos. The app never sends videos off your device.</p>
 <h2>Notifications</h2>
 <p>Rest-timer notifications and the reminder 3 days before a free trial ends are scheduled locally on your device. There is no push server or token, so nothing about notifications leaves your iPhone.</p>
 <h2>Purchases</h2>
-<p>Bench100 Plus (monthly, yearly, or one-time) is processed by Apple through the App Store. The app only asks Apple whether your Apple ID owns Plus. Payment details are handled by Apple and are never visible to the app or the developer. You can manage or cancel auto-renewing subscriptions at any time in iPhone Settings. To check whether you've used the app since an earlier version, the app reads, on your device, the original version you first installed from the App Store information Apple provides. It is not sent to the developer.</p>
+<p>Bench100 Plus (monthly, yearly, or one-time) is processed by Apple through the App Store. The app only asks Apple whether your Apple ID owns Plus. Only when you use the AI coach, your plan type (monthly, yearly, option or trial) is sent to our relay to count the monthly limit. No purchase records or payment details are sent. Payment details are handled by Apple and are never visible to the app or the developer. You can manage or cancel auto-renewing subscriptions at any time in iPhone Settings. To check whether you've used the app since an earlier version, the app reads, on your device, the original version you first installed from the App Store information Apple provides. It is not sent to the developer.</p>
 <h2>Exporting your records (CSV)</h2>
 <p>You can export your records as CSV from Settings anytime. You choose where to send the file with the share sheet. The developer never receives it.</p>
 <h2>Health data</h2>
-<p>The app does not read from or write to Apple Health.</p>
+<p>The app does not read from or write to Apple Health. The pain and how you feel that you choose in the AI coach are sent only for coaching and never used for advertising or marketing. Only that day's check-in is kept on your device (unused after the next session or day, deleted when you withdraw consent). It is not saved to or synced through iCloud.</p>
 <h2>Children</h2>
-<p>We do not knowingly collect information from anyone, including children.</p>
+<p>We do not knowingly collect information from children. The AI coach is for people 18 and over.</p>
 <h2>Not medical or coaching advice</h2>
-<p>Bench100 suggests weights and reps for training. It does not diagnose or give treatment advice. If you have a medical condition or pain, consult a doctor before starting.</p>
+<p>Bench100 suggests weights and reps for training. It does not diagnose or give treatment advice. If you have a medical condition or pain, consult a doctor before starting. The same applies to the AI coach, whose answers can be wrong.</p>
 <h2>Changes and contact</h2>
-<p>If this policy changes, the new version will be posted on this page with a new date. Questions: <a href="mailto:nosunosukawa@gmail.com">nosunosukawa@gmail.com</a></p>
+<p>If this policy changes, the new version will be posted on this page with a new date. If we change what the AI coach sends or where it goes, we will ask for your consent again in the app. Questions: <a href="mailto:nosunosukawa@gmail.com">nosunosukawa@gmail.com</a></p>
 <p class="meta"><a href="https://apps.apple.com/us/app/id6815478380" target="_blank" rel="noopener">Bench100 on the App Store</a></p>
 </main>
 <footer>© 2026 Nobutaka Kawasaki ・ Contact: <a href="mailto:nosunosukawa@gmail.com">nosunosukawa@gmail.com</a></footer>
